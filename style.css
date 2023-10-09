@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  padding: min(5%, 20px);
+  border-radius: 16px;
+}
+
+.qr-code {
+  background-color: #2b7dfa;
+  width: 100%;
+  padding: 30px;
+  border-radius: 16px;
+}
+
+.github-heading {
+    color: hsl(218, 44%, 22%);
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.github-paragraph {
+    color: hsl(220, 15%, 55%);
+    margin-bottom: 3rem;
+}
